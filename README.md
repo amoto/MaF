@@ -19,6 +19,7 @@ python training_rf.py -f mutag_features.csv
 
 ### Computing MaF features for the given datasets
 MATLAB script.
+
 ** Example:** compute MaF features with 3 hops for the mutag dataset:
 ```
  compute_MaF('mutag',1,3,3)
@@ -45,7 +46,7 @@ We also provide 12 well stablished graph benchmark datasets in chemoinformatics 
 * **REDDIT-MULTI-5K:** Multi-class classification task of 5000 networks of online discussion threads from Reddit. The task is to identify which subreddit thread a given discussion belongs to.
 * **REDDIT-MULTI-12K:** Same that the previous one, but with 12000 graphs. 
 
-### Usage
+### Dataset format
 
 For each data set X, the Matlab command
   load X
