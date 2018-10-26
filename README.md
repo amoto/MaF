@@ -17,13 +17,14 @@ Similarly for Random Forest:
 python training_rf.py -f mutag_features.csv
 ```
 
-### Computing MaF features for the given datasets
+### Computing MaF features for a given datasets
 MATLAB script.
 
 ** Example:** compute MaF features with 3 hops for the mutag dataset:
 ```
  compute_MaF('mutag',1,3,3)
 ```
+Note that the dataset name must correspond with the filename in dataset/ folder.
 
 ## Datasets
 We also provide 12 well stablished graph benchmark datasets in chemoinformatics and social networks.
