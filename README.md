@@ -49,9 +49,10 @@ We also provide 12 well stablished graph benchmark datasets in chemoinformatics 
 ### Dataset format
 
 For each data set X, the Matlab command
-  load X
-loads into the memory a struct array containing graphs, and a column vector lx containing 
-a class label for each graph.
+```
+load X
+```
+loads into the memory a struct array containing graphs, and a column vector Nx1 containing a class label for each graph.
 X(i).am is the adjacency matrix of the i'th graph, 
 X(i).al is the adjacency list of the i'th graph, 
 X(i).nl.values is a column vector of node labels for the i'th graph,
@@ -59,26 +60,21 @@ X(i).el (not always available) contains edge labels for the i'th graph.
 
 **Example:** 
 typing "load mutag" in MATLAB
-loads an structure called "mutag" with 188 element array of graph structures and a column of 188 numbers, 
-each of which indicates the class that the corresponding graph belongs to.
-It also loads a 188x1 vector called "lmutag" which contains the ground truth labels for each graph
+loads an structure called "mutag" with 188 element array of graph structures and a 188x1 vector called "lmutag" which contains the ground truth class assination for each graph.
 
 ### References ###
 * K. M. Borgwardt, C. S. Ong, S. Schoenauer, S. V. N. Vishwanathan, A. J. Smola, and H. P. 
-Kriegel. Protein function prediction via graph kernels. Bioinformatics, 21(Suppl 1):i47–i56, 
-Jun 2005.
+Kriegel. Protein function prediction via graph kernels. Bioinformatics, 21(Suppl 1):i47–i56, Jun 2005.
 
 * A. K. Debnath, R. L. Lopez de Compadre, G. Debnath, A. J. Shusterman, and C. Hansch. 
 Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. 
-Correlation with molecular orbital energies and hydrophobicity. J Med Chem, 34: 786–797, 
-1991.
+Correlation with molecular orbital energies and hydrophobicity. J Med Chem, 34: 786–797, 1991.
 
 * P. D. Dobson and A. J. Doig. Distinguishing enzyme structures from non-enzymes without 
 alignments. J Mol Biol, 330(4):771–783, Jul 2003.
 
 * I. Schomburg, A. Chang, C. Ebeling, M. Gremse, C. Heldt, G. Huhn, and D. Schomburg. Brenda, 
-the enzyme database: updates and major new developments. Nucleic Acids Research, 32D:431–433, 
-2004.
+the enzyme database: updates and major new developments. Nucleic Acids Research, 32D:431–433, 2004.
 
 * N. Wale and G. Karypis. Comparison of descriptor spaces for chemical compound retrieval and 
 classification. In Proc. of ICDM, pages 678–689, Hong Kong, 2006.
