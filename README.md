@@ -8,7 +8,7 @@ This code was tested on Debian GNU/Linux 8.11 (jessie), python 2.7 and Matlab R2
 
 ## Usage
 ### Example
-This code load precomputed features from features/ folder and train a Support Vector Machine Classifier:
+This code load precomputed features from **features/** folder and train a Support Vector Machine Classifier:
 ```
 python training_svm.py -f mutag_features.csv
 ```
@@ -24,7 +24,7 @@ MATLAB script.
 ```
  compute_MaF('mutag',1,3,3)
 ```
-Note that the dataset name must correspond with the filename in dataset/ folder.
+Note that the dataset name must correspond with the filename in **dataset/** folder.
 
 ## Datasets
 We also provide 12 well stablished graph benchmark datasets in chemoinformatics and social networks.
