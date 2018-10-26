@@ -1,6 +1,6 @@
 ## Multi-hop Assortativities For Networks Classification
 
-In this work we introduce the concept of multi-hop assortativities which captures correlations between nodes situated at two extremes of a randomly selected path of a given lenght. We use this assorativities as fingerprints for characterize networks and then performing high accurate graph classification task.
+In this work we introduce the concept of multi-hop assortativities which captures correlations between nodes situated at two extremes of a randomly selected path of a given lenght. We use this assortativities as fingerprints for characterizing networks and then performing high accurate graph classification task.
 
 https://arxiv.org/abs/1809.06253
 
