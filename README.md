@@ -40,12 +40,14 @@ We also provide 12 well stablished graph benchmark datasets in chemoinformatics 
 
 ### Social Nets
 
-* **COLLAB:** Is a scientific-collaboration dataset, where ego-networks of researchers that have collaborated together are constructed. The task is then determine whether the ego-collaboration network belongs to any of three classes, namely, High Energy Physics, Condense Mater Physics and Astro Physics.
+* **(*)COLLAB:** Is a scientific-collaboration dataset, where ego-networks of researchers that have collaborated together are constructed. The task is then determine whether the ego-collaboration network belongs to any of three classes, namely, High Energy Physics, Condense Mater Physics and Astro Physics.
 * **IMDB-BINARY:** Is an ego-networks of actors that have appeared together in any movie. Graphs are constructed from Action and Romance genres. The task is identify which genre an ego-network graph belongs to.
 * **IMDB-MULTI:** Is the same that the previous one, but consider three classes: Comedy, Romance and Sci-Fi.
-* **REDDIT-BINARY:** Binary classification task of 2000 graphs where each network represents of online discussion threads from Reddit. The task is to identify whether a discussion is Question/Answer or Debate-based thread.
-* **REDDIT-MULTI-5K:** Multi-class classification task of 5000 networks of online discussion threads from Reddit. The task is to identify which subreddit thread a given discussion belongs to.
-* **REDDIT-MULTI-12K:** Same that the previous one, but with 12000 graphs. 
+* **(*)REDDIT-BINARY:** Binary classification task of 2000 graphs where each network represents of online discussion threads from Reddit. The task is to identify whether a discussion is Question/Answer or Debate-based thread.
+* **(*)REDDIT-MULTI-5K:** Multi-class classification task of 5000 networks of online discussion threads from Reddit. The task is to identify which subreddit thread a given discussion belongs to.
+* **(*)REDDIT-MULTI-12K:** Same that the previous one, but with 12000 graphs. 
+
+(*)[This datasets can be downloades here](https://www.dropbox.com/sh/ktz6tn1dxt9ik55/AAA-0QOa1rTtMa80QURqBTl2a?dl=0)
 
 ### Dataset format
 
