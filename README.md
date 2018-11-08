@@ -47,7 +47,7 @@ We also provide 12 well stablished graph benchmark datasets in chemoinformatics 
 * **(*)REDDIT-MULTI-5K:** Multi-class classification task of 5000 networks of online discussion threads from Reddit. The task is to identify which subreddit thread a given discussion belongs to.
 * **(*)REDDIT-MULTI-12K:** Same that the previous one, but with 12000 graphs. 
 
-(*)[This datasets can be downloades here](https://www.dropbox.com/sh/ktz6tn1dxt9ik55/AAA-0QOa1rTtMa80QURqBTl2a?dl=0)
+(*)[These datasets can be downloaded from here](https://www.dropbox.com/sh/ktz6tn1dxt9ik55/AAA-0QOa1rTtMa80QURqBTl2a?dl=0)
 
 ### Dataset format
 
