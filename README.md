@@ -24,7 +24,7 @@ MATLAB script.
 ```
  compute_MaF('mutag',1,3,3)
 ```
-Note that the dataset name must correspond with the filename in **dataset/** folder.
+Notice that the dataset's name must correspond with the filename in the **dataset/** folder.
 
 ## Datasets
 We also provide 12 well stablished graph benchmark datasets in chemoinformatics and social networks.
