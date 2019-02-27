@@ -8,7 +8,7 @@ This code was tested on Debian GNU/Linux 8.11 (jessie), python 2.7 and Matlab R2
 
 ## Usage
 ### Example
-This code load precomputed features from **features/** folder and train a Support Vector Machine Classifier:
+This script will load precomputed features from **features/** folder and train a Support Vector Machine Classifier:
 ```
 python training_svm.py -f mutag_features.csv
 ```
